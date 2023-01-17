@@ -1,0 +1,10 @@
+POST http://localhost:60321/verification_status_uploader/upload_status HTTP/1.1
+Accept: application/json
+Content-Length: 81
+
+{
+  "externalUserId" : "50",
+  "reviewResult" : {
+    "reviewAnswer" : "GREEN"
+  }
+ }
